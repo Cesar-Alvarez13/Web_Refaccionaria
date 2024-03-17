@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refaccionaria Alvarez</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="icon" href="../img/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
+    <!--Crea una barra fija de navegacion con tema claro y expandible en dispositivos grandes-->
+    <div class="container">
+      <!--Titulo-->
+      <img src="../img/logo.png" width="30" height="30" margin-left="10" class="d-inline-block align-top" alt="">
+      <a href="#" class="navbar-brand"><span class="text-primary">Refaccionaria</span> Alvarez</a>
+
+      <!--Boton Hamburguesa-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-start"
+        aria-controls="navbar-start" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar-start">
+
+        <!--Links de Navegacion-->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#productos">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--SLIDER-->
+  <div id="caroselE1" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#caroselE1" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1">
+      </button>
+      <button type="button" data-bs-target="#caroselE1" data-bs-slide-to="1" class="active" aria-label="Slide 2">
+      </button>
+      <button type="button" data-bs-target="#caroselE1" data-bs-slide-to="2" class="active" aria-label="Slide 3">
+      </button>
+    </div>
+
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img src="../img/slider-1.jpg" class="d-block w-100" alt="">
+        <div class="carousel-caption">
+          <h5>Calidad que conduce tu confianza.</h5>
+          <p>
+            Cada pieza que proporcionamos está cuidadosamente seleccionada para garantizar la máxima fiabilidad y
+            rendimiento en tu vehículo.
+          </p>
+          <p><a href="#informacion" class="btn btn-primary mt-3">Leer mas</a></p>
+        </div>
+      </div>
+
+      <div class="carousel-item ">
+        <img src="../img/slider-2.jpg" class="d-block w-100" alt="">
+        <div class="carousel-caption">
+          <h5>Las piezas que tu auto merece, al alcance de tu mano</h5>
+          <p>
+            En nuestra refaccionaria, nos dedicamos a proporcionar las piezas de calidad que tu auto merece,
+            ofreciéndote una amplia selección de repuestos y accesorios.
+          </p>
+          <p><a href="#informacion" class="btn btn-primary mt-3">Leer mas</a></p>
+        </div>
+      </div>
+
+      <div class="carousel-item ">
+        <img src="../img/slider-3.jpg" class="d-block w-100" alt="">
+        <div class="carousel-caption">
+          <h5>Mantenimiento automotriz a tu medida</h5>
+          <p>
+            Destacando la capacidad de la refaccionaria para adaptarse a las
+            necesidades individuales de cada cliente y proporcionar soluciones personalizadas.
+          </p>
+          <p><a href="#informacion" class="btn btn-primary mt-3">Leer mas</a></p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#caroselE1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#caroselE1" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    <div id="nosotros"></div>
+  </div>
+
+  <!--NOSOTROS-->
+  <div class="about  bg-light">
+    <div class="about-container">
+      <h2 class="text-primary">Sobre Nosotros</h2>
+      <div class="about-info">
+        <p>
+          En Refaccionaria Alvarez, nos enorgullece ser tu destino confiable para todas tus necesidades de repuestos y
+          accesorios automotrices. Con una experiencia acumulada de más de dos décadas en la industria, nos hemos
+          ganado la confianza de nuestros clientes al ofrecer productos de calidad, un servicio excepcional y precios
+          competitivos.
+          <br>
+        <p>Nuestro compromiso con la excelencia se refleja en cada aspecto de nuestro negocio. Desde los productos que
+          seleccionamos cuidadosamente hasta la atención personalizada que brindamos a cada cliente, nos esforzamos
+          por superar tus expectativas en cada interacción.</p>
+        <br>
+        <p>En Refaccionaria Alvarez, comprendemos la importancia de mantener tu vehículo en óptimas condiciones. Es
+          por eso
+          que ofrecemos una amplia gama de repuestos originales y de alta calidad para todas las marcas y modelos de
+          automóviles. Ya sea que estés buscando filtros, frenos, partes eléctricas, accesorios de carrocería o
+          cualquier otra pieza, tenemos lo que necesitas para mantener tu vehículo en la mejor forma posible.</p>
+        <br>
+        <p>Nuestro equipo está formado por expertos apasionados por el mundo automotriz, listos para brindarte
+          asesoramiento experto y ayudarte a encontrar exactamente lo que estás buscando. Además, nuestra tienda en
+          línea está disponible las 24 horas del día, los 7 días de la semana, para que puedas realizar tus compras
+          con comodidad desde cualquier lugar.</p>
+        <br>
+        <p>En Refaccionaria Alvarez, no solo nos preocupamos por satisfacer tus necesidades de repuestos automotrices,
+          sino
+          que también nos comprometemos con la comunidad y el medio ambiente. Nos esforzamos por adoptar prácticas
+          comerciales responsables y sostenibles en todo lo que hacemos.</p>
+        </p>
+      </div>
+    </div>
+    <div id="informacion"></div>
+  </div>
+
+  <!--INFORMACION-->
+  <div class="info-container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="info mb-3">
+          <img src="../img/info-1.jpg" class="card-img-top" alt="Placeholder Image">
+          <div class="info-body">
+            <h5 class="info-title">Objetivo</h5>
+            <p class="info-text">Ser reconocidos como líderes en el suministro de repuestos automotrices de calidad,
+              ofreciendo una experiencia de compra excepcional y un servicio confiable que supere las expectativas de
+              nuestros clientes en cada interacción.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="info mb-3">
+          <img src="../img/info-2.png" class="card-img-top" alt="Placeholder Image">
+          <div class="info-body">
+            <h5 class="info-title">Vision</h5>
+            <p class="info-text">Ser la principal fuente de confianza y soluciones automotrices, proporcionando a
+              nuestros clientes productos de calidad y un servicio excepcional que impulse la seguridad y el rendimiento
+              de sus vehículos.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="info mb-3">
+          <img src="../img/info-3.jpg" class="card-img-top" alt="Placeholder Image">
+          <div class="info-body">
+            <h5 class="info-title">Mision</h5>
+            <p class="info-text">Proporcionar una amplia gama de repuestos automotrices de calidad, acompañados de un
+              servicio profesional y personalizado, para satisfacer las necesidades de nuestros clientes y garantizar la
+              seguridad y el rendimiento de sus vehículos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr id="productos">
+  <!--PRODUCTOS-->
+  <section id="productos">
+    <div class="productos-heading">
+      <h1 class="text-primary">Productos</h1>
+    </div>
+
+    <ul class="productos-filter">
+      <li class="list productos-filter-active" data-filter="all">All</li>
+      <li class="list" data-filter="hp">Herramienta / Piezas</li>
+      <li class="list" data-filter="paquetes">Paquetes</li>
+      <li class="list" data-filter="servicios">Servicios</li>
+    </ul>
+
+    <div class="productos-container">
+
+      <div class="card productos-box hp">
+        <img class="card-img-top" src="../img/producto-1.jpg" alt="Card image cap" style="width: 25rem;
+        border-radius: 2em; margin: 10px;">
+
+        <div class="card-body" style="max-width: 26.5rem;">
+          <h5 class="card-title" style="color: aliceblue">LLave Perico Ajustable</h5>
+          <p class="card-text" style="color: aliceblue ">
+            Nuestra llave perico ajustable es la solución perfecta para cualquier trabajo. Con su diseño versátil y
+            construcción robusta, ofrece un agarre seguro en una amplia gama de tamaños de tuercas y pernos. ¡Obtén
+            la
+            máxima eficiencia con nuestra herramienta confiable!
+          </p>
+          <div class="card-footer d-flex justify-content-center" style="max-height: 4.5rem;">
+            <a href="#" style="margin-right: 50px;"><i class="bi bi-bag-plus sizeIcon"></i></a>
+            <a href="#"><i class="bi bi-box-arrow-up-right sizeIcon"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card productos-box hp">
+        <img class="card-img-top" src="../img/producto-2.jpg" alt="Card image cap" style="width: 25rem;
+        border-radius: 2em; margin: 10px;">
+
+        <div class="card-body" style="max-width: 26.5rem;">
+          <h5 class="card-title" style="color: aliceblue">Juego de Desarmadores</h5>
+          <p class="card-text" style="color: aliceblue ">
+            Nuestro juego de desarmadores es imprescindible para cualquier tarea. Con una variedad de tamaños y
+            tipos de
+            cabezas, esta colección versátil ofrece la solución perfecta para cada proyecto. ¡Confiable, duradero y
+            listo para enfrentar cualquier desafío!
+          </p>
+          <div class="card-footer d-flex justify-content-center" style="max-height: 4.5rem;">
+            <a href="#" style="margin-right: 50px;"><i class="bi bi-bag-plus sizeIcon"></i></a>
+            <a href="#"><i class="bi bi-box-arrow-up-right sizeIcon"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card productos-box hp">
+        <img class="card-img-top" src="../img/producto-3.jpg" alt="Card image cap" style="width: 25rem;
+        border-radius: 2em; margin: 10px;">
+
+        <div class="card-body" style="max-width: 26.5rem;">
+          <h5 class="card-title" style="color: aliceblue">Matraca</h5>
+          <p class="card-text" style="color: aliceblue ">
+            La matraca automotriz, ofrece un rendimiento excepcional para
+            reparaciones y mantenimiento de vehículos. Su diseño resistente y ergonómico proporciona un agarre
+            cómodo y
+            seguro, asegurando eficiencia y precisión en cada aplicación.
+
+          </p>
+          <div class="card-footer d-flex justify-content-center" style="max-height: 4.5rem;">
+            <a href="#" style="margin-right: 50px;"><i class="bi bi-bag-plus sizeIcon"></i></a>
+            <a href="#"><i class="bi bi-box-arrow-up-right sizeIcon"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card productos-box paquetes">
+        <img class="card-img-top" src="../img/paquete-1.jpg" alt="Card image cap" style="width: 25rem;
+        border-radius: 2em; margin: 10px;">
+
+        <div class="card-body" style="max-width: 26.5rem;">
+          <h5 class="card-title" style="color: aliceblue">Juego de Dados y Matraca</h5>
+          <p class="card-text" style="color: aliceblue ">
+            Nuestro juego de dados con matraca ofrece versatilidad y rendimiento en un solo paquete. Con una amplia
+            variedad de tamaños y una matraca duradera, es perfecto para reparaciones y mantenimiento automotriz.
+            ¡Obtén
+            precisión y eficiencia en cada trabajo!
+
+          </p>
+          <div class="card-footer d-flex justify-content-center" style="max-height: 4.5rem;">
+            <a href="#" style="margin-right: 50px;"><i class="bi bi-bag-plus sizeIcon"></i></a>
+            <a href="#"><i class="bi bi-box-arrow-up-right sizeIcon"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card productos-box paquetes">
+        <img class="card-img-top" src="../img/paquete-3.jpg" alt="Card image cap" style="width: 25rem;
+        border-radius: 2em; margin: 10px;">
+
+        <div class="card-body" style="max-width: 26.5rem;">
+          <h5 class="card-title" style="color: aliceblue">Kit de Taladro</h5>
+          <p class="card-text" style="color: aliceblue ">
+            Nuestro kit de taladro eléctrico incluye todo lo que necesitas para completar proyectos de bricolaje y
+            reparaciones en el hogar. Con una variedad de puntas y pilas incluidas, este conjunto ofrece
+            conveniencia y
+            versatilidad para todas tus necesidades de perforación. ¡Hazlo realidad hoy!
+
+          <div class="card-footer d-flex justify-content-center" style="max-height: 4.5rem;">
+            <a href="#" style="margin-right: 50px;"><i class="bi bi-bag-plus sizeIcon"></i></a>
+            <a href="#"><i class="bi bi-box-arrow-up-right sizeIcon"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card productos-box paquetes">
+        <img class="card-img-top" src="../img/paquete-2.jpg" alt="Card image cap" style="width: 25rem;
+        border-radius: 2em; margin: 10px;">
+
+        <div class="card-body" style="max-width: 26.5rem;">
+          <h5 class="card-title" style="color: aliceblue">Kit completo de Herramienta</h5>
+          <p class="card-text" style="color: aliceblue ">
+            Nuestro completo kit de herramientas incluye todo lo necesario para abordar cualquier proyecto. Con
+            dados,
+            martillo, matraca, pinzas y desarmadores, este conjunto versátil garantiza eficiencia y precisión en
+            cada
+            tarea. ¡Prepárate para enfrentar cualquier desafío con confianza!
+
+          </p>
+          <div class="card-footer d-flex justify-content-center" style="max-height: 4.5rem;">
+            <a href="#" style="margin-right: 50px;"><i class="bi bi-bag-plus sizeIcon"></i></a>
+            <a href="#"><i class="bi bi-box-arrow-up-right sizeIcon"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card productos-box servicios">
+        <img class="card-img-top" src="../img/servicio-1.jpg" alt="Card image cap" style="width: 25rem;
+        border-radius: 2em; margin: 10px;">
+
+        <div class="card-body" style="max-width: 26.5rem;">
+          <h5 class="card-title" style="color: aliceblue">Cambio de Aceite</h5>
+          <p class="card-text" style="color: aliceblue ">
+            Nuestro servicio de cambio de aceite garantiza un rendimiento óptimo para tu vehículo. Con un equipo
+            experto
+            y productos de calidad, aseguramos una lubricación adecuada para prolongar la vida útil del motor y
+            mantener
+            su funcionamiento suave.
+          </p>
+          <div class="card-footer d-flex justify-content-center" style="max-height: 4.5rem;">
+            <a href="#" style="margin-right: 50px;"><i class="bi bi-bag-plus sizeIcon"></i></a>
+            <a href="#"><i class="bi bi-box-arrow-up-right sizeIcon"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card productos-box servicios">
+        <img class="card-img-top" src="../img/servicio-2.jpg" alt="Card image cap" style="width: 25rem;
+        border-radius: 2em; margin: 10px;">
+
+        <div class="card-body" style="max-width: 26.5rem;">
+          <h5 class="card-title" style="color: aliceblue">Afinacion</h5>
+          <p class="card-text" style="color: aliceblue ">
+            Nuestra afinación completa maximiza el rendimiento de tu vehículo. Con inspección exhaustiva, cambio de
+            filtros, ajuste de componentes y más, garantizamos un funcionamiento óptimo del motor y un rendimiento
+            eficiente en carretera.
+
+          </p>
+          <div class="card-footer d-flex justify-content-center" style="max-height: 4.5rem;">
+            <a href="#" style="margin-right: 50px;"><i class="bi bi-bag-plus sizeIcon"></i></a>
+            <a href="#"><i class="bi bi-box-arrow-up-right sizeIcon"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card productos-box servicios">
+        <img class="card-img-top" src="../img/servicio-3.jpg" alt="Card image cap" style="width: 25rem;
+        border-radius: 2em; margin: 10px;">
+
+        <div class="card-body" style="max-width: 26.5rem;">
+          <h5 class="card-title" style="color: aliceblue">Programacion y Escaneo</h5>
+          <p class="card-text" style="color: aliceblue ">
+            Nuestro servicio utiliza tecnología avanzada para diagnosticar y
+            programar sistemas electrónicos de vehículos. Identificamos y resolvemos problemas de manera rápida y
+            precisa para garantizar un funcionamiento óptimo y seguro del automóvil.
+          </p>
+          <div class="card-footer d-flex justify-content-center" style="max-height: 4.5rem;">
+            <a href="#" style="margin-right: 50px;"><i class="bi bi-bag-plus sizeIcon"></i></a>
+            <a href="#"><i class="bi bi-box-arrow-up-right sizeIcon"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="fundador"></div>
+
+  </section>
+
+  <!--PERFIL FUNDADOR-->
+  <div class="fundador bg-light mb-5 p-5">
+    <h2 class="text-primary text-uppercase">Fundador</h2>
+    <div class="fundador-container">
+      <div class="fundador-img">
+        <div class="home-imghover">
+          <img src="../img/yo3.png" alt="">
+        </div>
+      </div>
+    </div>
+    <h2 class="text-primary text-uppercase">Cesar Emmanuel Alvarez Morales</h2>
+    <div id="contacto"></div>
+  </div>
+
+  <!--CONTACTO-->
+  <div class="contact-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-title">
+            <h2 class="text-primary text-uppercase">Contacta con Nosotros</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <input class="form-control" placeholder="Ingresa tu nombre" type="text">
+              </div>
+              <p></p>
+              <div class="form-group">
+                <input class="form-control" placeholder="Ingresa tu email" type="email">
+              </div>
+              <p></p>
+              <div class="form-group">
+                <input class="form-control" placeholder="Ingresa tu numero" type="tel">
+              </div>
+              <p></p>
+              <div class="form-group">
+                <textarea class="form-control" cols="30" placeholder="Escribe tu mensaje" rows="10"></textarea>
+              </div><button class="btn btn-primary mt-3" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <div class="map-area">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59731.23847898251!2d-103.28581248257846!3d20.661342824046265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b463a66a87f3%3A0xea8032312eaa924d!2sCentro%20De%20Ense%C3%B1anza%20T%C3%A9cnica%20Industrial!5e0!3m2!1ses-419!2smx!4v1708085218476!5m2!1ses-419!2smx"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--FOOTER-->
+  <footer class="bg-light text-dark pt-5 pb-4">
+    <div class="container text-center text-md-start">
+      <div class="row text-center text-md-start">
+        <div class="col-md-3 conl-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary"><img src="../img/logo.png" width="30"
+              height="30" margin-left="10" class="d-inline-block align-top" alt=""> Nosotros</h5>
+          <hr class="mb-4">
+          <p class="info-empresa">
+            Somos tu destino confiable para todas tus necesidades automotrices. En nuestra refaccionaria, ofrecemos
+            una
+            amplia gama de repuestos y accesorios de calidad, junto con un servicio excepcional.
+          </p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">QuickLinks</h5>
+          <hr class="mb-4">
+          <p>
+            <a href="#" class="text-dark">Inicio</a>
+          </p>
+          <p>
+            <a href="#nosotros" class="text-dark">Nosotros</a>
+          </p>
+          <p>
+            <a href="#productos" class="text-dark">Productos</a>
+          </p>
+          <p>
+            <a href="#fundador" class="text-dark">Fundador</a>
+          </p>
+          <p>
+            <a href="#contacto" class="text-dark">Contacto</a>
+          </p>
+        </div>
+
+        <div class="contact-flooter col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+          <hr class="mb-4">
+          <p>
+            <li class="bi bi-geo-alt me-3"> Guadalajara</li>
+          </p>
+          <p>
+            <li class="bi bi-book"> Programación Web</li>
+          </p>
+          <p>
+            <li class="bi bi-person-circle"> Cesar ALvarez</li>
+          </p>
+          <p>
+            <li class="bi bi-envelope me-3"> a21110058@ceti.mx</li>
+          </p>
+          <p>
+            <li class="bi bi-phone me-3"> 33-26-75-68-01</li>
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Redes</h5>
+          <hr class="mb-4">
+          <p class="text-center">
+            <i class="bi bi-facebook"></i>
+          </p>
+          <p class="text-center">
+            <i class="bi bi-instagram"></i>
+          </p>
+          <p class="text-center">
+            <i class="bi bi-whatsapp"></i>
+          </p>
+          <p class="text-center">
+            <i class="bi bi-google"></i>
+          </p>
+        </div>
+
+        <hr class="text-center mb-2">
+        <div class="text-center mb-2">
+          <p class="text-primary">
+            Copyright <br>Todos los derechos reservados
+          </p>
+          <p>
+            Fecha de creacion: 15/02/2024
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+  <script type="text/javascript">
+    $(document).on('click', '.productos-filter li', function () {
+      $(this).addClass('productos-filter-active').siblings().removeClass('productos-filter-active')
+    })
+    $(document).ready(function () {
+      $('.list').click(function () {
+        const value = $(this).attr('data-filter');
+        if (value == 'all') {
+          $('.productos-box').show('1000');
+        } else {
+          $('.productos-box').not('.' + value).hide('1000');
+          $('.productos-box').filter('.' + value).show('1000');
+        }
+      })
+    })
+  </script>
+</body>
+
+</html>
