@@ -11,5 +11,4 @@
 
 [![Captura-de-pantalla-2024-03-17-045615.png](https://i.postimg.cc/zBVq0BtC/Captura-de-pantalla-2024-03-17-045615.png)](https://postimg.cc/PpnGqtkJ)
 
-![image](https://github.com/user-attachments/assets/588bb33c-5c55-4e13-9041-13e9071ff11c)
 
