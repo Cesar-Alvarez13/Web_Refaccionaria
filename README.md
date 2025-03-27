@@ -1,6 +1,6 @@
 # Project_Refaccionaria
 
-![image](https://github.com/user-attachments/assets/e9461047-e6ae-4e7c-b449-5b6805eb91eb)
+![image](https://github.com/user-attachments/assets/768bbe7d-8b1a-4520-9aa1-d8be02dbe7cc)
 
 ![image](https://github.com/user-attachments/assets/24f6ae0f-5047-4bf0-81b5-ef9552de8838)
 
