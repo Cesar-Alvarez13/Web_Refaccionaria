@@ -1,6 +1,9 @@
 # Project_Refaccionaria
 
-[![Captura-de-pantalla-2024-03-17-044549.png](https://i.postimg.cc/vmgTT4Q1/Captura-de-pantalla-2024-03-17-044549.png)](https://postimg.cc/TyxfHY5G)
+![image](https://github.com/user-attachments/assets/e9461047-e6ae-4e7c-b449-5b6805eb91eb)
+
+![image](https://github.com/user-attachments/assets/24f6ae0f-5047-4bf0-81b5-ef9552de8838)
+
 
 [![Captura-de-pantalla-2024-03-17-044650.png](https://i.postimg.cc/jSWtQBBm/Captura-de-pantalla-2024-03-17-044650.png)](https://postimg.cc/zy1sq2zF)
 
